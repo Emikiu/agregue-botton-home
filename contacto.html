@@ -17,7 +17,7 @@
 
     <title>VOS&YO</title>
   </head>
-  <body class="contactofondo vh-100">
+  <body class="contactofondo">
     <header>
       <div class="container-fluid">
         <div class="row">
@@ -36,26 +36,28 @@
     <main>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-8 py-1 ps-5">
+          <div class="col-md-12 py-1 ps-5">
             <div>
-              <h1 class="display-3">
+              <h1 class="display-3 font-weight-bold text-center white">
                 CONTÁCTANOS <br />NUESTRO EQUIPO ESTÁ LISTO PARA AYUDARTE
               </h1>
-              <p class="text-primary">
+              <p class="lead text-center text-primary p-5">
                 EN ESTA SECCIÓN PODRÁS DARTE DE ALTA. Y SI YA ERES UNO DE LOS
                 MILES DE CLIENTES DE NUESTRA CAFETERÍA ONLINE, PUEDES INICIAR
                 SESIÓN AQUI.
               </p>
             </div>
-            <p target="_blank" class="text-primary text-opacity-75">
+            <br />
+            <br />
+            <p class="blue text-center text-opacity-75 display-6">
               INGRESA A TU CUENTA DE SOCIO Y DESCUBRE NUESTRAS PROMOCIONES Y
               ACCESORIOS
             </p>
-            <form>
+            <form class="col-md-6">
               <div class="mb-3">
                 <label
                   for="exampleInputEmail1"
-                  class="form-label font-weight-bold"
+                  class="form-label font-weight-bold text-primary"
                   >Email</label
                 >
                 <input
@@ -64,12 +66,14 @@
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                 />
-                <div id="emailHelp" class="form-text">
+                <div id="emailHelp" class="form-text text-primary">
                   Nunca compartiremos tu correo electrónico con nadie más.
                 </div>
               </div>
               <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label"
+                <label
+                  for="exampleInputPassword1"
+                  class="form-label text-primary"
                   >Contraseña</label
                 >
                 <input
@@ -84,46 +88,84 @@
                   class="form-check-input"
                   id="exampleCheck1"
                 />
-                <label class="form-check-label" for="exampleCheck1"
+                <label class="form-check-label text-primary" for="exampleCheck1"
                   >Búscame</label
                 >
               </div>
               <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
           </div>
-          <div class="col-md-4">
-            <ul class="nav nav-tabs">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Active</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </main>
 
-    <footer>
-      <div>
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
-            <a href="contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
 
+          <!-- Twitter -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <!-- Google -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+
+          <!-- Github -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-3"
+        style="background-color: rgba(0, 0, 0, 0.2);"
+      >
+        © 2020 Copyright:
+        <a class="text-white">VOS&YO</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
